@@ -1,0 +1,55 @@
+# Application
+public/wp-content/plugins/*
+!public/wp-content/plugins/.gitkeep
+public/wp-content/mu-plugins/*/
+!public/wp-content/mu-plugins/bedrock-autoloader.php
+public/wp-content/themes/twenty*/
+public/wp-content/upgrade
+public/wp-content/uploads/*
+!public/wp-content/uploads/.gitkeep
+public/wp-content/cache/*
+public/wp-content/languages/*
+!public/wp-content/languages/.gitkeep
+*.sql
+*.zip
+*.gz
+
+# WordPress
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-config.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+/wp-includes
+/wp-admin
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+# OS
+.DS_Store
+
+*-bak
