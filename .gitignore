@@ -15,7 +15,9 @@ public/wp-content/languages/*
 *.gz
 
 # Logs
+/logs/*
 *.log
+local-xdebuginfo.php
 
 # Dotenv
 .env
